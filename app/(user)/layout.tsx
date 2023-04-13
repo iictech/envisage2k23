@@ -1,7 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
-import GoogleSignIn from "@/components/GoogleSignIn";
+import GoogleButton from "@/app/components/buttons/GoogleButton";
+import Loading from "@/app/components/loading";
 import { useAuthContext } from "@/context/AuthContext";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
@@ -25,15 +26,17 @@ function classNames(...classes: string[]) {
 }
 
 export default function UserLayout({ children }: { children: React.ReactNode }) {
-  const { user } = useAuthContext() as { user: User | null; loading: boolean };
+  const { user, loading } = useAuthContext() as { user: User | null; loading: boolean };
   const pathname = usePathname();
+
+  if (loading) return <Loading />;
 
   if (!user)
     return (
       <div className="flex h-screen items-center justify-center">
         <div className="m-auto flex flex-col">
           You must be logged in to view this page
-          <GoogleSignIn text="Sign in with Google" />
+          <GoogleButton text="Sign in with Google" />
         </div>
       </div>
     );
