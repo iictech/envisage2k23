@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 export default function GoogleLogout() {
   const auth = getAuth();
   const router = useRouter();
+
   const handleLogout = () => {
     signOut(auth)
       .then(() => {

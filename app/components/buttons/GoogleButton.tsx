@@ -4,7 +4,7 @@ import { addUserData, getUserData } from "@/lib/firestore";
 import { GoogleAuthProvider, getAuth, signInWithPopup } from "firebase/auth";
 import { useRouter } from "next/navigation";
 
-export default function GoogleSignIn({ text }: { text: string }) {
+export default function GoogleButton({ text }: { text: string }) {
   const provider = new GoogleAuthProvider();
   const auth = getAuth();
   const router = useRouter();
@@ -23,7 +23,7 @@ export default function GoogleSignIn({ text }: { text: string }) {
           const docSnap = await getUserData("users_test", user?.uid as string);
 
           if (docSnap.exists() === true) {
-            console.log("Document data:", docSnap.data());
+           // console.log("Document data:", docSnap.data());
             router.push("/dashboard");
           } else {
             // doc.data() will be undefined in this case
@@ -43,7 +43,7 @@ export default function GoogleSignIn({ text }: { text: string }) {
             });
             router.push("/new-user");
 
-            console.log("No such document!");
+           // console.log("No such document!");
           }
         } catch (error) {
           console.log(error);
