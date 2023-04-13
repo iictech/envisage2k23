@@ -1,10 +1,10 @@
 "use client";
 
-import { addUserData } from "@/lib/firestore";
+import { addUserData, getUserData } from "@/lib/firestore";
 import { GoogleAuthProvider, getAuth, signInWithPopup } from "firebase/auth";
 import { useRouter } from "next/navigation";
 
-export default function GoogleSignIn({ text }: { text: string }) {
+export default function GoogleButton({ text }: { text: string }) {
   const provider = new GoogleAuthProvider();
   const auth = getAuth();
   const router = useRouter();
@@ -17,20 +17,39 @@ export default function GoogleSignIn({ text }: { text: string }) {
         // The signed-in user info.
         const user = result.user;
 
-        // you would insert this detail to your database and proceed from there.
-
+        // check if user exists in database
+        // if not, add user to database
         try {
-          await addUserData("users_test", user?.uid, {
-            email: user?.email,
-            name: user?.displayName,
-            photo: user?.photoURL,
-            isNewUser: true,
-          });
+          const docSnap = await getUserData("users_test", user?.uid as string);
+
+          if (docSnap.exists() === true) {
+           // console.log("Document data:", docSnap.data());
+            router.push("/dashboard");
+          } else {
+            // doc.data() will be undefined in this case
+
+            await addUserData("users_test", user?.uid, {
+              uid: user?.uid,
+              email: user?.email,
+              name: user?.displayName,
+              photoUrl: user?.photoURL,
+              phoneNumber: 0,
+              college: "",
+              state: "",
+              city: "",
+              evgId: "",
+              referralId: "",
+              isNewUser: true,
+            });
+            router.push("/new-user");
+
+           // console.log("No such document!");
+          }
         } catch (error) {
           console.log(error);
         }
+        // you would insert this detail to your database and proceed from there.
 
-        router.push("/dashboard");
         // ...
       })
       .catch((error) => {

@@ -4,7 +4,7 @@
 import React from "react";
 import { useAuthContext } from "@/context/AuthContext";
 import { useRouter } from "next/navigation";
-import GoogleLogout from "@/app/components/GoogleLogout";
+import GoogleLogout from "@/app/components/buttons/GoogleLogout";
 import { User } from "firebase/auth";
 import { getUserData } from "@/lib/firestore";
 import { UserData } from "@/lib/types";
