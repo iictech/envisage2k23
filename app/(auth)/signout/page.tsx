@@ -19,21 +19,24 @@ export default function Home() {
 
   if (user)
     return (
-      <main className="flex h-full w-screen bg-gray-100">
-        <div className="flex w-full flex-co------------------------l bg-white sm:m-auto sm:max-w-sm sm:rounded-xl sm:shadow-xl">
-          <div className="mx-auto max-w-5xl flex-col px-4 sm:flex sm:items-end sm:space-x-5 sm:px-6 lg:px-8">
-            <div>
-              <h2 className="mt-12 text-center text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">
-                Are you sure you want to sign out?
-              </h2>
+      <>
+        <title>Sign Out - Envisage 23</title>
+        <main className="flex h-full w-screen bg-gray-100">
+          <div className="flex w-full flex-col bg-white sm:m-auto sm:max-w-sm sm:rounded-xl sm:shadow-xl">
+            <div className="mx-auto max-w-5xl flex-col px-4 sm:flex sm:items-end sm:space-x-5 sm:px-6 lg:px-8">
+              <div>
+                <h2 className="mt-12 text-center text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">
+                  Are you sure you want to sign out?
+                </h2>
+              </div>
+            </div>
+            <div className="mx-auto px-8">
+              <div className="my-4 mb-12 flex flex-col items-center justify-center">
+                <GoogleLogout />
+              </div>
             </div>
           </div>
-          <div className="mx-auto px-8">
-            <div className="my-4 mb-12 flex flex-col items-center justify-center">
-              <GoogleLogout />
-            </div>
-          </div>
-        </div>
-      </main>
+        </main>
+      </>
     );
 }
