@@ -8,7 +8,7 @@ export default function Home() {
 
   return (
     <main>
-      <h1>Hello World!</h1>
+      <h1>Hello World! kmn a6en sobai ? :)</h1>
     </main>
   );
 }
