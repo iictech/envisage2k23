@@ -23,7 +23,7 @@ export default function GoogleButton({ text }: { text: string }) {
           const docSnap = await getUserData("users_test", user?.uid as string);
 
           if (docSnap.exists() === true) {
-           // console.log("Document data:", docSnap.data());
+            // console.log("Document data:", docSnap.data());
             router.push("/dashboard");
           } else {
             // doc.data() will be undefined in this case
@@ -32,7 +32,7 @@ export default function GoogleButton({ text }: { text: string }) {
               uid: user?.uid,
               email: user?.email,
               name: user?.displayName,
-              photoUrl: user?.photoURL,
+              photoURL: user?.photoURL,
               phoneNumber: 0,
               college: "",
               state: "",
@@ -43,7 +43,7 @@ export default function GoogleButton({ text }: { text: string }) {
             });
             router.push("/new-user");
 
-           // console.log("No such document!");
+            // console.log("No such document!");
           }
         } catch (error) {
           console.log(error);
