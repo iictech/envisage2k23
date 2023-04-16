@@ -17,8 +17,8 @@ export default function AboutPage() {
         <title>Events - Envisage 23</title>
         <div>
           <div className="text-gray-600">
-            <div className="container mx-auto px-5 py-24 pt-0">
-              <div className="-m-4 flex flex-wrap">
+            <div className="container mx-auto px-4 py-24 pt-0">
+              <div className="-m-4 mx-auto flex flex-wrap">
                 {events.map((event) => (
                   <EventCard key={event.id} event={event} />
                 ))}
@@ -35,8 +35,8 @@ export default function AboutPage() {
         <div>
           <Title title="Events" />
           <div className="text-gray-600">
-            <div className="container mx-auto px-5 py-24 pt-0">
-              <div className="-m-4 flex flex-wrap">
+            <div className="container mx-auto px-4  py-24 pt-0">
+              <div className="-m-4 mx-auto flex flex-wrap">
                 {events.map((event) => (
                   <EventCard key={event.id} event={event} />
                 ))}
