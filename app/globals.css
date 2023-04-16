@@ -1,5 +1,85 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+@import url("https://rsms.me/inter/inter.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*----------Inter var Font---------*/
+
+:root {
+  font-family: "Inter", sans-serif;
+  @apply scroll-smooth font-sans antialiased;
+}
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: "Inter var", sans-serif;
+    font-feature-settings: "cv11", "cv03", "cv04", "cv09" !important;
+  }
+}
+
+/*----------Outline Text---------*/
+
+@layer base {
+  .font-decoration1 {
+    -webkit-text-stroke: 4px rgb(37 99 235);
+    color: transparent;
+    font-family: "Poppins";
+    font-weight: 700;
+    line-height: 1.2em;
+  }
+}
+
+/*----------Marquee Text Animation---------*/
+
+.marquee {
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  height: 140px;
+}
+
+.marquee span {
+  display: inline-block;
+  padding-left: 100%;
+}
+
+.marquee1 span {
+  animation: marquee1 60s linear infinite;
+}
+
+.marquee2 span {
+  animation: marquee2 40s linear infinite;
+}
+
+.marquee3 span {
+  animation: marquee3 70s linear infinite;
+  animation-delay: 0.2s;
+}
+
+@keyframes marquee1 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+@keyframes marquee2 {
+  0% {
+    transform: translate(-100%, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes marquee3 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
