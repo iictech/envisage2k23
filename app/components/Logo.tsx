@@ -17,8 +17,8 @@ export default function Logo(props: React.SVGProps<SVGSVGElement>) {
           y2="231.44"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="#0005ff" />
-          <stop offset="1" stop-color="#00d8e1" />
+          <stop offset="0" stopColor="#0005ff" />
+          <stop offset="1" stopColor="#00d8e1" />
         </linearGradient>
         <linearGradient
           id="linear-gradient-2"
@@ -28,8 +28,8 @@ export default function Logo(props: React.SVGProps<SVGSVGElement>) {
           y2="231.16"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="#0500ff" />
-          <stop offset="1" stop-color="#00d8e1" />
+          <stop offset="0" stopColor="#0500ff" />
+          <stop offset="1" stopColor="#00d8e1" />
         </linearGradient>
         <linearGradient
           id="linear-gradient-3"
@@ -39,8 +39,8 @@ export default function Logo(props: React.SVGProps<SVGSVGElement>) {
           y2="135.34"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="#00d8e1" />
-          <stop offset="1" stop-color="#0005ff" />
+          <stop offset="0" stopColor="#00d8e1" />
+          <stop offset="1" stopColor="#0005ff" />
         </linearGradient>
         <linearGradient
           id="linear-gradient-4"
@@ -50,8 +50,8 @@ export default function Logo(props: React.SVGProps<SVGSVGElement>) {
           y2="135.33"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="#00d8e1" />
-          <stop offset="1" stop-color="#0500ff" />
+          <stop offset="0" stopColor="#00d8e1" />
+          <stop offset="1" stopColor="#0500ff" />
         </linearGradient>
         <linearGradient
           id="linear-gradient-5"
@@ -61,8 +61,8 @@ export default function Logo(props: React.SVGProps<SVGSVGElement>) {
           y2="82.15"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="#0005ff" />
-          <stop offset="1" stop-color="#00d8e1" />
+          <stop offset="0" stopColor="#0005ff" />
+          <stop offset="1" stopColor="#00d8e1" />
         </linearGradient>
         <linearGradient
           xlinkHref="#linear-gradient-2"
@@ -176,8 +176,8 @@ export default function Logo(props: React.SVGProps<SVGSVGElement>) {
           y2="170.27"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="#0005ff" />
-          <stop offset="1" stop-color="#00aeef" />
+          <stop offset="0" stopColor="#0005ff" />
+          <stop offset="1" stopColor="#00aeef" />
         </linearGradient>
         <linearGradient
           xlinkHref="#linear-gradient-2"
