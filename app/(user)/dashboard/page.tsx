@@ -1,15 +1,14 @@
-/* eslint-disable @next/next/no-img-element */
 "use client";
 
-import React from "react";
+import Ticket from "@/app/components/Ticket";
 import { useAuthContext } from "@/context/AuthContext";
-import { useRouter } from "next/navigation";
-import GoogleLogout from "@/app/components/buttons/GoogleLogout";
-import { User } from "firebase/auth";
 import { getUserData } from "@/lib/firestore";
 import { UserData } from "@/lib/types";
+import { User } from "firebase/auth";
+import { useRouter } from "next/navigation";
+import React from "react";
 
-function Page() {
+export default function DashboardPage() {
   const { user } = useAuthContext() as { user: User | null };
   const [userData, setUserData] = React.useState<UserData | null>(null);
 
@@ -34,12 +33,12 @@ function Page() {
   }, [router, user]);
 
   return (
-    <div>
-      <h1>Only logged in users can view this page</h1>
-      <pre>{JSON.stringify(userData, null, 2)}</pre>
-      <GoogleLogout />
-    </div>
+    <>
+      <title>Dashboard - Envisage 23</title>
+      <div>
+        <h1 className="pb-4 text-center text-2xl font-bold">Welcome {userData?.name},</h1>
+        <Ticket userData={userData} />
+      </div>
+    </>
   );
 }
-
-export default Page;
