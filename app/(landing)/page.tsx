@@ -78,7 +78,7 @@ export default function Home() {
           </p>
         </section>
         <section className="text-gray-600">
-          <div className="container mx-auto px-5 py-20 sm:pb-40">
+          <div className="container mx-auto px-5 py-20 sm:pb-32">
             <div className="mb-20 flex w-full flex-col flex-wrap items-center text-center">
               <h1 className="text-2xl font-extrabold text-gray-900 sm:text-6xl">
                 Why take part in
@@ -137,7 +137,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="mt-14 flex flex-col justify-center sm:flex-row">
+            <div className="mx-8 mt-14 flex flex-col justify-center sm:flex-row">
               <button
                 className="block rounded-lg bg-blue-600 px-6 py-4 text-center text-base font-semibold uppercase tracking-tight text-zinc-100 active:scale-95 sm:px-12 sm:text-xl"
                 onClick={() => router.push("/signup")}
@@ -147,9 +147,9 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section>
+        <section className="pb-28">
           <div
-            className="mx-20 mb-10 h-auto rounded-3xl bg-gradient-to-bl from-slate-800 to-black py-14"
+            className="mx-6 h-auto rounded-3xl bg-gradient-to-bl from-slate-800 to-black py-14 sm:mx-20"
             style={{
               backgroundImage:
                 "url('https://images.unsplash.com/photo-1597773150796-e5c14ebecbf5')",
@@ -161,7 +161,7 @@ export default function Home() {
             <div className="mx-auto max-w-6xl rounded-2xl p-8 text-white sm:rounded-3xl">
               <div className="mx-auto max-w-4xl">
                 <h1 className="text-center text-3xl font-semibold tracking-tight sm:text-6xl">
-                  Wanna be a part of the <br />
+                  Wanna be a part of the <br className="hidden sm:visible" />
                   biggest E-Summit of Kolkata?
                 </h1>
                 <div className="mt-14 flex flex-col justify-center sm:flex-row">
