@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import Logo from "../Logo";
 
 const navigation = [
   { name: "Events", href: "/events" },
@@ -23,12 +24,8 @@ export default function NavBar() {
         >
           <div className="flex lg:flex-1">
             <a href="/" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
-              <img
-                className="h-8 w-auto"
-                src="https://example.com/img/logos/mark.svg"
-                alt="Logo"
-              />
+              <span className="sr-only">Envisage 23</span>
+              <Logo className="h-12 w-auto" />
             </a>
           </div>
           <div className="flex lg:hidden">
@@ -52,11 +49,17 @@ export default function NavBar() {
               </a>
             ))}
           </div>
-          <div className="hidden lg:flex gap-x-4 lg:flex-1 lg:justify-end">
-          <a href="/login" className="rounded-md border px-4 py-2 font-bold text-black hover:bg-blue-50 duration-150 transition-all ease-in-out">
+          <div className="hidden gap-x-4 lg:flex lg:flex-1 lg:justify-end">
+            <a
+              href="/login"
+              className="rounded-md border px-4 py-2 font-bold text-black transition-all duration-150 ease-in-out hover:bg-blue-50"
+            >
               Login
             </a>
-            <a href="/signup" className="rounded-md bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-700 duration-150 transition-all ease-in-out">
+            <a
+              href="/signup"
+              className="rounded-md bg-blue-500 px-4 py-2 font-bold text-white transition-all duration-150 ease-in-out hover:bg-blue-700"
+            >
               Sign Up
             </a>
           </div>
@@ -72,11 +75,7 @@ export default function NavBar() {
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
-                <img
-                  className="h-8 w-auto"
-                  src="https://example.com/img/logos/mark.svg"
-                  alt="Logo"
-                />
+                <Logo className="h-12 w-auto" />
               </a>
               <button
                 type="button"
