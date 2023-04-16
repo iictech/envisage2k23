@@ -8,16 +8,16 @@ export default function Home() {
   return (
     <>
       <title>Home - Envisage 23</title>
-      <main className="sm:px-6">
-        <div className="max-h-auto mb-10 h-auto bg-gradient-to-bl from-slate-800 to-black py-28 pt-32 sm:rounded-3xl sm:pb-12">
+      <main className="">
+        <div className="max-h-auto mb-10 h-auto bg-gradient-to-bl from-slate-800 to-black py-28 pt-32 sm:pb-12">
           <div className="mx-auto max-w-6xl rounded-2xl p-8 text-white sm:rounded-3xl sm:px-28 sm:py-2 sm:pb-20">
             <div className="mx-auto max-w-4xl">
               <h1 className="pb-4 text-center text-base font-semibold tracking-widest text-zinc-100 sm:pb-10 sm:text-xl">
                 PRESENTING
               </h1>
-              <h1 className="pb-12 text-center text-5xl font-black uppercase sm:text-7xl">
+              <h1 className="pb-12 text-center text-5xl font-black uppercase sm:text-8xl">
                 Envisage&rsquo;
-                <span className="pl-4 text-blue-600">23</span>
+                <span className="font-decoration1 pl-4 text-transparent">23</span>
               </h1>
               <h1 className="text-center text-3xl font-semibold tracking-tight sm:text-5xl">
                 The Official
@@ -42,6 +42,35 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <section className="py-20">
+          <p className="marquee marquee1">
+            <span className="text-9xl font-black normal-case tracking-tight text-blue-600">
+              Welcome to Envisage&rsquo; 2K23 Welcome to Envisage&rsquo; 2K23 Welcome to
+              Envisage&rsquo; 2K23 Welcome to Envisage&rsquo; 2K23 Welcome to
+              Envisage&rsquo; 2K23 Welcome to Envisage&rsquo; 2K23 Welcome to
+              Envisage&rsquo; 2K23 Welcome to Envisage&rsquo; 2K23 Welcome to
+              Envisage&rsquo; 2K23
+            </span>
+          </p>
+          <p className="marquee marquee2">
+            <span className="font-decoration1 text-9xl normal-case tracking-tight">
+              Welcome to Envisage&rsquo; 2K23 Welcome to Envisage&rsquo; 2K23 Welcome to
+              Envisage&rsquo; 2K23 Welcome to Envisage&rsquo; 2K23 Welcome to
+              Envisage&rsquo; 2K23 Welcome to Envisage&rsquo; 2K23 Welcome to
+              Envisage&rsquo; 2K23 Welcome to Envisage&rsquo; 2K23 Welcome to
+              Envisage&rsquo; 2K23
+            </span>
+          </p>
+          <p className="marquee marquee3">
+            <span className="text-9xl font-black normal-case tracking-tight text-blue-600">
+              Welcome to Envisage&rsquo; 2K23 Welcome to Envisage&rsquo; 2K23 Welcome to
+              Envisage&rsquo; 2K23 Welcome to Envisage&rsquo; 2K23 Welcome to
+              Envisage&rsquo; 2K23 Welcome to Envisage&rsquo; 2K23 Welcome to
+              Envisage&rsquo; 2K23 Welcome to Envisage&rsquo; 2K23 Welcome to
+              Envisage&rsquo; 2K23
+            </span>
+          </p>
+        </section>
       </main>
     </>
   );
