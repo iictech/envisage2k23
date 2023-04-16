@@ -64,3 +64,7 @@ export type Cities = {
   latitude: string;
   longitude: string;
 };
+
+export type TitleProps = {
+  title: string;
+};
