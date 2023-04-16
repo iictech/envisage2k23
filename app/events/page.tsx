@@ -3,33 +3,13 @@
 import Title from "@/app/components/Title";
 import EventCard from "@/app/components/events/EventCard";
 import { useAuthContext } from "@/context/AuthContext";
+import events from "@/data/events.json";
 import { User } from "firebase/auth";
 import HomeLayout from "../(landing)/layout";
 import UserLayout from "../(user)/layout";
 
 export default function AboutPage() {
   const { user } = useAuthContext() as { user: User | null };
-
-  const events = [
-    {
-      id: "event1",
-      title: "Event 1",
-      description: "Event 1 description",
-      date: "0000-00-00",
-      time: "00:00",
-      category: "Offline",
-      image: "https://picsum.photos/200/300",
-    },
-    {
-      id: "event2",
-      title: "Event 2",
-      description: "Event 2 description",
-      date: "0000-00-00",
-      time: "00:00",
-      category: "Online",
-      image: "https://picsum.photos/200/300",
-    },
-  ];
 
   if (user) {
     return (

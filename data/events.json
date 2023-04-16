@@ -1,0 +1,101 @@
+[
+  {
+    "id": "showtime",
+    "title": "Techno Showtime",
+    "description": "A Short Film Festival",
+    "date": "0000-00-00",
+    "time": "00:00",
+    "category": "",
+    "image": "/events/showtime.png"
+  },
+  {
+    "id": "mockipl",
+    "title": "Mock IPL Auction",
+    "description": "Virtual IPL Auction",
+    "date": "0000-00-00",
+    "time": "00:00",
+    "category": "",
+    "image": "/events/mockipl.png"
+  },
+  {
+    "id": "onboard",
+    "title": "On-Board",
+    "description": "UNO Game",
+    "date": "0000-00-00",
+    "time": "00:00",
+    "category": "",
+    "image": "/events/onboard.png"
+  },
+  {
+    "id": "prototype",
+    "title": "Proto Type Design",
+    "description": "Functional Proto Type Building",
+    "date": "0000-00-00",
+    "time": "00:00",
+    "category": "",
+    "image": "/events/prototype.png"
+  },
+  {
+    "id": "hackurway",
+    "title": "Hack UR Way",
+    "description": "Hackathon",
+    "date": "0000-00-00",
+    "time": "00:00",
+    "category": "",
+    "image": "/events/hackurway.png"
+  },
+  {
+    "id": "bplan",
+    "title": "B-Plan",
+    "description": "Business Idea",
+    "date": "0000-00-00",
+    "time": "00:00",
+    "category": "",
+    "image": "/events/bplan.png"
+  },
+  {
+    "id": "promoteit",
+    "title": "Promote It",
+    "description": "Graphics Designing",
+    "date": "0000-00-00",
+    "time": "00:00",
+    "category": "",
+    "image": "/events/promoteit.png"
+  },
+  {
+    "id": "casestudy",
+    "title": "Case Study Challenge",
+    "description": "Business Problem Solution",
+    "date": "0000-00-00",
+    "time": "00:00",
+    "category": "",
+    "image": "/events/casestudy.png"
+  },
+  {
+    "id": "brainitout",
+    "title": "Brain It Out",
+    "description": "Business Quiz",
+    "date": "0000-00-00",
+    "time": "00:00",
+    "category": "",
+    "image": "/events/brainitout.png"
+  },
+  {
+    "id": "stockify",
+    "title": "Stockify",
+    "description": "Virtual Stock Market",
+    "date": "0000-00-00",
+    "time": "00:00",
+    "category": "",
+    "image": "/events/stockify.png"
+  },
+  {
+    "id": "tweeters",
+    "title": "Tweeters",
+    "description": "Business Debate",
+    "date": "0000-00-00",
+    "time": "00:00",
+    "category": "",
+    "image": "/events/tweeters.png"
+  }
+]
