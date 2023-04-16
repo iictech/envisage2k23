@@ -65,6 +65,38 @@ export type Cities = {
   longitude: string;
 };
 
+/**
+ * The above type defines a single property interface for a component's title.
+ * @property {string} title - The `TitleProps` type is a TypeScript interface that defines a single
+ * property `title` of type `string`. This interface can be used to define the expected shape of an
+ * object that has a `title` property with a string value.
+ */
 export type TitleProps = {
   title: string;
+};
+
+/**
+ * The above type defines the props for an event card component in TypeScript.
+ * @property {string} id - A unique identifier for the event card.
+ * @property {string} title - The title of the event.
+ * @property {string} description - The `description` property is a string that contains a brief
+ * description of an event. It provides additional information about the event beyond the title and
+ * category.
+ * @property {string} date - The date property is a string that represents the date of the event.
+ * @property {string} time - The "time" property is a string that represents the time of the event. It
+ * could be in any format, such as "12:00 PM" or "6:30 AM".
+ * @property {string} category - The category property is a string that represents the category of the
+ * event. It could be something like "music", "sports", "food", "art", etc.
+ * @property {string} image - The "image" property is a string that represents the URL or file path of
+ * an image associated with an event. It could be used to display a visual representation of the event
+ * on a website or in an application.
+ */
+type EventProps = {
+  id: string;
+  title: string;
+  description: string;
+  date: string;
+  time: string;
+  category: string;
+  image: string;
 };
