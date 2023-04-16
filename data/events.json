@@ -36,6 +36,15 @@
     "image": "/events/prototype.png"
   },
   {
+    "id": "paneldiscussion",
+    "title": "Panel Discussion",
+    "description": "Business Panel Discussion",
+    "date": "0000-00-00",
+    "time": "00:00",
+    "category": "",
+    "image": "/events/paneldiscussion.png"
+  },
+  {
     "id": "hackurway",
     "title": "Hack UR Way",
     "description": "Hackathon",
