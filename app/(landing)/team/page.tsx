@@ -1,7 +1,7 @@
 
 import Title from "@/components/Title";
 import LinkedIn from "@/components/LinkedIn";
-import "./styles.css"
+import "./style.css"
 import Image from "next/legacy/image";
 import Link from "next/link";
 
