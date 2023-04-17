@@ -1,7 +1,8 @@
-# Envisage TMSL Website
-![image](./cover.jpg)
+# Envisage 2k23 Website
 
-> The repo for the official website of IIC TMSL.
+![image](.github/cover.jpg)
+
+> The repo for the official website of Envisage 2k23.
 
 ## Features
 
@@ -17,7 +18,6 @@
 - [`framer-motion`](https://www.framer.com/motion/) - Production-ready declarative animations.
 - [`lightbox.js-react`](https://www.getlightboxjs.com/) - The all-in-one React lightbox.
 
-
 ## Development
 
 1. To install the needed dependencies run
@@ -31,7 +31,7 @@
    ```bash
    yarn dev
    ```
-   
+
 3. To build this project run
 
    ```bash
@@ -48,7 +48,6 @@
 - Komal Agarwal - [@komal-agarwal5](https://www.github.com/komal-agarwal5)
 - Parna Ray Chowdhury - [@ParnaRoyChowdhury777](https://www.github.com/ParnaRoyChowdhury777)
 - Shrutika Jha - [@shrutika2603](https://www.github.com/shrutika2603)
-
 
 ## License
 
