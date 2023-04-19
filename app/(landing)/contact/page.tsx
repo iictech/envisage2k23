@@ -6,7 +6,7 @@ import { IoLogoFacebook } from "react-icons/io5";
 import { IoLogoTwitter } from "react-icons/io5";
 import { IoLogoInstagram } from "react-icons/io5";
 import { IoLogoLinkedin } from "react-icons/io5";
-import "./team/styles.css"
+import "./team/style.css"
 import Title from "@/app/components/Title";
 
 export default function Contact() {
