@@ -6,7 +6,6 @@ import { IoLogoFacebook } from "react-icons/io5";
 import { IoLogoTwitter } from "react-icons/io5";
 import { IoLogoInstagram } from "react-icons/io5";
 import { IoLogoLinkedin } from "react-icons/io5";
-import "./team/style.css";
 import Title from "@/app/components/Title";
 
 export default function Contact() {
@@ -14,7 +13,7 @@ export default function Contact() {
     <>
       <title>Contact Us - Envisage 23</title>
       <div
-        className="overflow-x-hidden all">
+        className="overflow-x-hidden [background-image: linear-gradient(white, #00d8ff, #046cf5 50%)]">
         <div>
           <Title title="Contact" />
         </div>
