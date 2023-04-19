@@ -59,7 +59,7 @@ export default function Footer() {
             </h2>
             <nav className="mb-10  flex list-none flex-col gap-y-2">
               <li>
-                <a href="/leagl/privacy" className="text-gray-400 hover:text-gray-200">
+                <a href="/legal/privacy" className="text-gray-400 hover:text-gray-200">
                   Privacy Policy
                 </a>
               </li>
