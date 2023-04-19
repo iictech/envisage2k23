@@ -1,21 +1,18 @@
-
 import Title from "@/components/Title";
 import LinkedIn from "@/components/LinkedIn";
-import "./style.css"
+import "./style.css";
 import Image from "next/legacy/image";
 import Link from "next/link";
 
-export default function  TeamPage() {
+export default function TeamPage() {
   return (
     <>
-
-      
       <div className="all">
         <Title title="Our Team" />
         <div>
           <h2 className="mx-auto mt-6 max-w-3xl text-center text-2xl leading-8 text-zinc-600 dark:text-zinc-500">
-            Our team consists a group of passionate people who are working hard
-            to make IIC TMSL a success.
+            Our team consists a group of passionate people who are working hard to make
+            IIC TMSL a success.
           </h2>
           <p className="mt-5 flex items-center justify-center text-center text-xs sm:text-sm">
             Tip: Click on the Images to visit their{" "}
@@ -29,10 +26,7 @@ export default function  TeamPage() {
             </h2>
             <div className="mx-auto -mb-10 -mt-4 flex flex-wrap sm:-m-4">
               {adminList.map((admin) => (
-                <div
-                  key={admin.id}
-                  className="mx-auto mb-6 p-4 sm:mb-0 md:w-1/3"
-                >
+                <div key={admin.id} className="mx-auto mb-6 p-4 sm:mb-0 md:w-1/3">
                   <div className="mx-auto aspect-square h-56 w-56 overflow-hidden rounded-full border border-zinc-200 shadow-md transition-all duration-150  ease-in-out hover:scale-110 hover:shadow-xl active:scale-95 dark:border-zinc-800">
                     <Link
                       href={`https://www.linkedin.com/in/${admin.linkedIn}`}
@@ -104,8 +98,7 @@ export default function  TeamPage() {
       </div>
     </>
   );
-};
-
+}
 
 const adminList = [
   {
