@@ -12,11 +12,8 @@ export default function Contact() {
   return (
     <>
       <title>Contact Us - Envisage 23</title>
-      <div
-        className="overflow-x-hidden [background-image: linear-gradient(white, #00d8ff, #046cf5 50%)]">
-        <div>
-          <Title title="Contact" />
-        </div>
+      <div className="overflow-x-hidden bg-gradient-to-r from-blue-900 to-blue-400">
+
         <div className="relative w-full px-20 pb-20 pt-8">
           <div className="text-bold flex items-center justify-center text-4xl font-medium text-white">
             <h2 className="mt-0 pb-2.5 font-medium">Let&apos;s get in touch</h2>
