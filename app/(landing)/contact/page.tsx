@@ -15,11 +15,8 @@ export default function Contact() {
     <>
       <title>Contact Us - Envisage 23</title>
       <div className="all overflow-x-hidden">
-
+        <Title title="Let&apos;s get in touch" />
         <div className="relative w-full px-20 pb-20 pt-8">
-          <div className="text-bold flex items-center justify-center text-4xl font-medium text-white">
-            <Title title="Let&apos;s get in touch"/>
-          </div>
           <div className="relative grid grid-cols-3 gap-x-8">
             <div className="col-span-2 mt-3 rounded-3xl bg-white shadow-lg [padding:40px]">
               <h3 className="mb-4 text-2xl font-medium text-blue-900">Send a Message</h3>
