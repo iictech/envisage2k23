@@ -7,6 +7,7 @@ import { IoLogoTwitter } from "react-icons/io5";
 import { IoLogoInstagram } from "react-icons/io5";
 import { IoLogoLinkedin } from "react-icons/io5";
 import "./../team/style.css"
+import Title from "@/app/components/Title";
 
 
 export default function Contact() {
@@ -17,7 +18,7 @@ export default function Contact() {
 
         <div className="relative w-full px-20 pb-20 pt-8">
           <div className="text-bold flex items-center justify-center text-4xl font-medium text-white">
-            <h2 className="mt-0 pb-2.5 font-medium">Let&apos;s get in touch</h2>
+            <Title title="Let&apos;s get in touch"/>
           </div>
           <div className="relative grid grid-cols-3 gap-x-8">
             <div className="col-span-2 mt-3 rounded-3xl bg-white shadow-lg [padding:40px]">
