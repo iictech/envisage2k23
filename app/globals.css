@@ -83,3 +83,9 @@
     transform: translate(-100%, 0);
   }
 }
+
+/* Gallery */
+
+.lightbox_img {
+  @apply rounded-xl;
+}
