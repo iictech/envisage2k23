@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Logo from "../Logo";
 
 export default function Footer() {
@@ -5,7 +6,10 @@ export default function Footer() {
     <footer className="bg-gray-900 text-gray-400">
       <div className="container mx-auto flex flex-col flex-wrap px-5 py-24 md:flex-row md:flex-nowrap md:items-center lg:items-start">
         <div className="mx-auto flex-shrink-0 text-center sm:w-96 md:mx-0 md:text-left">
-          <a className="flex items-center justify-center font-medium text-white md:justify-start">
+          <a
+            href="/"
+            className="flex items-center justify-center font-medium text-white md:justify-start"
+          >
             <Logo className="h-12 w-12" />
             <span className="ml-3 text-3xl font-extrabold">
               ENVISAGE&rsquo; <span className="text-blue-600">23</span>
@@ -24,19 +28,29 @@ export default function Footer() {
             </h2>
             <nav className="mb-10 flex list-none flex-col gap-y-2">
               <li>
-                <a className="text-gray-400 hover:text-gray-200">About Us</a>
+                <a href="/about" className="text-gray-400 hover:text-gray-200">
+                  About Us
+                </a>
               </li>
               <li>
-                <a className="text-gray-400 hover:text-gray-200">Team</a>
+                <a href="/team" className="text-gray-400 hover:text-gray-200">
+                  Team
+                </a>
               </li>
               <li>
-                <a className="text-gray-400 hover:text-gray-200">Gallery</a>
+                <a href="/gallery" className="text-gray-400 hover:text-gray-200">
+                  Gallery
+                </a>
               </li>
               <li>
-                <a className="text-gray-400 hover:text-gray-200">Sponsors</a>
+                <a href="/sponsors" className="text-gray-400 hover:text-gray-200">
+                  Sponsors
+                </a>
               </li>
               <li>
-                <a className="text-gray-400 hover:text-gray-200">FAQ</a>
+                <a href="/#faq" className="text-gray-400 hover:text-gray-200">
+                  FAQ
+                </a>
               </li>
             </nav>
           </div>
@@ -46,13 +60,19 @@ export default function Footer() {
             </h2>
             <nav className="mb-10  flex list-none flex-col gap-y-2">
               <li>
-                <a className="text-gray-400 hover:text-gray-200">Privacy Policy</a>
+                <a href="/leagl/privacy" className="text-gray-400 hover:text-gray-200">
+                  Privacy Policy
+                </a>
               </li>
               <li>
-                <a className="text-gray-400 hover:text-gray-200">Terms & Conditions</a>
+                <a href="/legal/terms" className="text-gray-400 hover:text-gray-200">
+                  Terms & Conditions
+                </a>
               </li>
               <li>
-                <a className="text-gray-400 hover:text-gray-200">Refund Policy</a>
+                <a href="/legal/refund" className="text-gray-400 hover:text-gray-200">
+                  Refund Policy
+                </a>
               </li>
             </nav>
           </div>
@@ -62,13 +82,31 @@ export default function Footer() {
             </h2>
             <nav className="mb-10 flex list-none flex-col gap-y-2">
               <li>
-                <a className="text-gray-400 hover:text-gray-200">iictmsl.com</a>
+                <a
+                  href="https://iictmsl.com"
+                  target="_blank"
+                  className="text-gray-400 hover:text-gray-200"
+                >
+                  iictmsl.com
+                </a>
               </li>
               <li>
-                <a className="text-gray-400 hover:text-gray-200">About Us</a>
+                <a
+                  href="https://iictmsl.com/about"
+                  target="_blank"
+                  className="text-gray-400 hover:text-gray-200"
+                >
+                  About Us
+                </a>
               </li>
               <li>
-                <a className="text-gray-400 hover:text-gray-200">Our Aim</a>
+                <a
+                  href="https://iictmsl.com/#aim"
+                  target="_blank"
+                  className="text-gray-400 hover:text-gray-200"
+                >
+                  Our Aim
+                </a>
               </li>
             </nav>
           </div>
@@ -80,7 +118,11 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} Envisage - All rights reserved.
           </p>
           <span className="mt-2 inline-flex justify-center sm:ml-auto sm:mt-0 sm:justify-start">
-            <a className="text-gray-500">
+            <a
+              href="https://www.facebook.com/iictmsl/"
+              target="_blank"
+              className="text-gray-500"
+            >
               <svg
                 fill="currentColor"
                 strokeLinecap="round"
@@ -92,7 +134,11 @@ export default function Footer() {
                 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
               </svg>
             </a>
-            <a className="ml-3 text-gray-500">
+            <a
+              href="https://twitter.com/iictmsl"
+              target="_blank"
+              className="ml-3 text-gray-500"
+            >
               <svg
                 fill="currentColor"
                 strokeLinecap="round"
@@ -104,7 +150,11 @@ export default function Footer() {
                 <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
               </svg>
             </a>
-            <a className="ml-3 text-gray-500">
+            <a
+              href="https://www.instagram.com/iictmsl/"
+              target="_blank"
+              className="ml-3 text-gray-500"
+            >
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -118,7 +168,11 @@ export default function Footer() {
                 <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
               </svg>
             </a>
-            <a className="ml-3 text-gray-500">
+            <a
+              href="https://www.linkedin.com/company/iictmsl/mycompany/"
+              target="_blank"
+              className="ml-3 text-gray-500"
+            >
               <svg
                 fill="currentColor"
                 stroke="currentColor"
