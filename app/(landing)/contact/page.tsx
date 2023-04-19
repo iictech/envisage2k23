@@ -6,13 +6,14 @@ import { IoLogoFacebook } from "react-icons/io5";
 import { IoLogoTwitter } from "react-icons/io5";
 import { IoLogoInstagram } from "react-icons/io5";
 import { IoLogoLinkedin } from "react-icons/io5";
-import Title from "@/app/components/Title";
+import "./../team/style.css"
+
 
 export default function Contact() {
   return (
     <>
       <title>Contact Us - Envisage 23</title>
-      <div className="overflow-x-hidden bg-gradient-to-r from-blue-900 to-blue-400">
+      <div className="all overflow-x-hidden">
 
         <div className="relative w-full px-20 pb-20 pt-8">
           <div className="text-bold flex items-center justify-center text-4xl font-medium text-white">
