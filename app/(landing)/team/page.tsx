@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function TeamPage() {
   return (
     <>
-      <div className="all">
+      <div className="all overflow-x-hidden">
         <Title title="Our Team" />
         <div>
           <h2 className="mx-auto mt-6 max-w-3xl text-center text-2xl leading-8 text-zinc-600 dark:text-zinc-500">
