@@ -1,8 +1,8 @@
-import Title from "@/components/Title";
 import LinkedIn from "@/components/LinkedIn";
-import "./style.css";
+import Title from "@/components/Title";
 import Image from "next/legacy/image";
 import Link from "next/link";
+import "./style.css";
 
 export default function TeamPage() {
   return (
@@ -84,10 +84,10 @@ export default function TeamPage() {
                     </div>
                   </Link>
 
-                  <h2 className="mt-5 text-center text-xl font-bold text-zinc-900 dark:text-zinc-100">
+                  <h2 className="mt-5 text-center text-xl font-bold text-zinc-100">
                     {member.name}
                   </h2>
-                  <p className="mt-2 text-center text-sm leading-relaxed text-zinc-600 dark:text-zinc-500">
+                  <p className="mt-2 text-center text-sm leading-relaxed text-zinc-300">
                     {member.role}
                   </p>
                 </div>
@@ -105,21 +105,21 @@ const adminList = [
     id: 1,
     name: "Ayushi Dey",
     role: "Convenor",
-    image: "/images/team/admin/ayushi-dey.jpeg",
+    image: "https://www.iictmsl.com/images/team/admin/ayushi-dey.jpeg",
     linkedIn: "ayushi-dey-390",
   },
   {
     id: 2,
     name: "Siladitya Marik",
     role: "Co-Convenor",
-    image: "/images/team/admin/siladitya-marik.jpeg",
+    image: "https://www.iictmsl.com/images/team/admin/siladitya-marik.jpeg",
     linkedIn: "siladitya-marik-1abb03225",
   },
   {
     id: 3,
     name: "Ankit Kumar Gorain",
     role: "Co-Convenor",
-    image: "/images/team/admin/ak-gorain.jpeg",
+    image: "https://www.iictmsl.com/images/team/admin/ak-gorain.jpeg",
     linkedIn: "akgorain",
   },
 ];
@@ -129,126 +129,126 @@ const teamlist = [
     id: 1,
     name: "Arnab Mukherjee",
     role: "Co-Head of Graphics wing.",
-    image: "/images/team/heads-coheads/arnab.jpg",
+    image: "https://www.iictmsl.com/images/team/heads-coheads/arnab.jpg",
     linkedIn: "arnab-mukherjee-1b1b1b1b1",
   },
   {
     id: 2,
     name: "Tejodeep Mitra Roy",
     role: "Co-Head of Graphics wing.",
-    image: "/images/team/heads-coheads/tejodeep.jpg",
+    image: "https://www.iictmsl.com/images/team/heads-coheads/tejodeep.jpg",
     linkedIn: "tejodeep-mitra-roy",
   },
   {
     id: 3,
     name: "Aditya Seth",
     role: "Co-Head of Technical wing.",
-    image: "/images/team/heads-coheads/aditya.jpg",
+    image: "https://www.iictmsl.com/images/team/heads-coheads/aditya.jpg",
     linkedIn: "aditya-seth-270833233",
   },
   {
     id: 4,
     name: "Pratim Saha",
     role: "Head of Press wing.",
-    image: "/images/team/heads-coheads/pratim.jpg",
+    image: "https://www.iictmsl.com/images/team/heads-coheads/pratim.jpg",
     linkedIn: "",
   },
   {
     id: 5,
     name: "Prastab Mukhopadhyay",
     role: "Co-Head of Press wing.",
-    image: "/images/team/heads-coheads/prastab.jpg",
+    image: "https://www.iictmsl.com/images/team/heads-coheads/prastab.jpg",
     linkedIn: "prastab-mukhopadhyay-8b342923b",
   },
   {
     id: 6,
     name: "Rahul Das",
     role: "Co-Head of Press wing.",
-    image: "/images/team/heads-coheads/rahul.jpg",
+    image: "https://www.iictmsl.com/images/team/heads-coheads/rahul.jpg",
     linkedIn: "",
   },
   {
     id: 7,
     name: "Shristi Rai",
     role: "Head of PR wing.",
-    image: "/images/team/heads-coheads/shrishti.jpg",
+    image: "https://www.iictmsl.com/images/team/heads-coheads/shrishti.jpg",
     linkedIn: "shristi-rai-03a264209",
   },
   {
     id: 8,
     name: "Soumyadeep Banerjee",
     role: "Co-Head of PR wing.",
-    image: "/images/team/heads-coheads/soumyadeep.jpg",
+    image: "https://www.iictmsl.com/images/team/heads-coheads/soumyadeep.jpg",
     linkedIn: "soumyadeep-banerjee-722447237",
   },
   {
     id: 9,
     name: "Sneha Priya",
     role: "Head of Social Media wing.",
-    image: "/images/team/heads-coheads/sneha.jpg",
+    image: "https://www.iictmsl.com/images/team/heads-coheads/sneha.jpg",
     linkedIn: "sneha-priya-b5890a214",
   },
   {
     id: 10,
     name: "Abhipreya Ghosh",
     role: "Head of Start-up wing & Co-Head of Sponsorship wing.",
-    image: "/images/team/heads-coheads/abhi.jpg",
+    image: "https://www.iictmsl.com/images/team/heads-coheads/abhi.jpg",
     linkedIn: "abhipreya-ghosh-531576211",
   },
   {
     id: 11,
     name: "Rajeev Tiwari",
     role: "Head of Management wing.",
-    image: "/images/team/heads-coheads/rajeev.jpg",
+    image: "https://www.iictmsl.com/images/team/heads-coheads/rajeev.jpg",
     linkedIn: "rajeev-tiwari-88503b143",
   },
   {
     id: 12,
     name: "Varun Fatepuria",
     role: "Co-Head of Management wing.",
-    image: "/images/team/heads-coheads/varun.jpg",
+    image: "https://www.iictmsl.com/images/team/heads-coheads/varun.jpg",
     linkedIn: "varun-fatepuria-0a76aa214",
   },
   {
     id: 13,
     name: "Rohan Jha",
     role: "Co-Head of Sponshorship wing & Head of Internship wing.",
-    image: "/images/team/heads-coheads/rohan.jpg",
+    image: "https://www.iictmsl.com/images/team/heads-coheads/rohan.jpg",
     linkedIn: "rohan-jha-476296213",
   },
   {
     id: 14,
     name: "Shweta Sharma",
     role: "Head of Content wing.",
-    image: "/images/team/heads-coheads/shweta.jpg",
+    image: "https://www.iictmsl.com/images/team/heads-coheads/shweta.jpg",
     linkedIn: "shweta-sharma-b39646200",
   },
   {
     id: 15,
     name: "Sanjana Dey",
     role: "Co-Head of Content wing.",
-    image: "/images/team/heads-coheads/sanjana.jpg",
+    image: "https://www.iictmsl.com/images/team/heads-coheads/sanjana.jpg",
     linkedIn: "sanjana-dey-b4588a202",
   },
   {
     id: 16,
     name: "Ishika Mondal",
     role: "Head of Resource wing.",
-    image: "/images/team/heads-coheads/ishika.jpg",
+    image: "https://www.iictmsl.com/images/team/heads-coheads/ishika.jpg",
     linkedIn: "ishikamondal",
   },
   {
     id: 17,
     name: "Sandeep Pratap",
     role: "Co-Head of Resource wing.",
-    image: "/images/team/heads-coheads/sandeep.jpg",
+    image: "https://www.iictmsl.com/images/team/heads-coheads/sandeep.jpg",
     linkedIn: "sandeep-pratap-528003202",
   },
   {
     id: 18,
     name: "Dipannita Kundu",
     role: "Admin Head.",
-    image: "/images/team/heads-coheads/dipannita.jpg",
+    image: "https://www.iictmsl.com/images/team/heads-coheads/dipannita.jpg",
     linkedIn: "dipannita-kundu-998b621a6",
   },
 ];
