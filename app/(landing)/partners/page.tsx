@@ -1,15 +1,16 @@
 import Logo from "@/app/components/Logo";
 import Title from "@/app/components/Title";
 import events from "@/data/events.json";
+import "./../team/style.css";
 
 export default function PartnersPage() {
   return (
     <>
       <title>Partner with Us - Envisage 23</title>
-      <div>
+      <div className="all overflow-x-hidden">
         <Title title="Partner with Us" />
         <section className="mx-auto max-w-5xl px-4 py-20 sm:pt-10">
-          <div className="mx-auto mb-10 flex flex-col items-center gap-y-4 rounded-3xl p-10 text-black transition-all duration-200 ease-in-out hover:scale-95 hover:shadow-2xl hover:ring-4 hover:ring-blue-500 hover:ring-offset-8 sm:flex-row">
+          <div className="mx-auto mb-10 flex flex-col bg-gray-900 items-center gap-y-4 rounded-3xl p-10 text-black transition-all duration-200 ease-in-out hover:scale-95 hover:shadow-2xl hover:ring-4 hover:ring-blue-500 hover:ring-offset-8 sm:flex-row">
             <div className="sm:h-84 sm:w-84 inline-flex h-72 w-72 flex-shrink-0 items-center justify-center">
               <Logo className="h-60 w-60" />
             </div>
