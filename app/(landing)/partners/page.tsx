@@ -15,7 +15,7 @@ export default function PartnersPage() {
               <Logo className="h-60 w-60" />
             </div>
             <div className="mt-6 flex-grow text-center sm:mt-0 sm:text-left">
-              <h2 className="mb-6 text-4xl text-sky-400 font-bold tracking-tight sm:text-5xl">
+              <h2 className="mb-6 text-4xl text-sky-300 font-bold tracking-tight sm:text-5xl">
                 What is Envisage?
               </h2>
               <p className="mx-auto mt-6 text-lg leading-8 text-white sm:text-left sm:text-xl">
@@ -43,7 +43,7 @@ export default function PartnersPage() {
             </div>
           </div>
           <div className="flex justify-center py-12">
-            <button className="block rounded-lg bg-gray-900 px-6 py-4 text-center text-base font-semibold uppercase tracking-tight text-zinc-100 hover:bg-blue-900 active:scale-95 sm:px-12 sm:text-xl">
+            <button className="block rounded-lg bg-gray-900 px-6 py-4 text-center text-base font-semibold uppercase tracking-tight text-zinc-100 hover:bg-blue-950 active:scale-95 sm:px-12 sm:text-xl">
               Join as a Event Partner
             </button>
           </div>
