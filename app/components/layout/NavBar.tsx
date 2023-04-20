@@ -7,7 +7,7 @@ const navigation = [
   { name: "Events", href: "/events" },
   { name: "Team", href: "/team" },
   { name: "Gallery", href: "/gallery" },
-  { name: "Sponsor", href: "/sponsors" },
+  { name: "Partner with Us", href: "/partners" },
   { name: "About", href: "/about" },
   { name: "Contact", href: "/contact" },
 ];
