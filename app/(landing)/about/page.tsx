@@ -2,7 +2,7 @@ import Logo from "@/app/components/Logo";
 import Title from "@/app/components/Title";
 import "./../team/style.css"
 import Image from "next/image"
-
+import Poster from "./images/poster.png"
 
 export default function AboutPage() {
   return (
@@ -43,7 +43,7 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="order-first inline-flex h-72 w-72 flex-shrink-0 items-center justify-center sm:order-none sm:ml-10 sm:h-96 sm:w-96">
-              <Image src={"./images/poster.png"} alt=""/>
+              <Image src={Poster} alt=""/>
             </div>
           </div>
         </section>
