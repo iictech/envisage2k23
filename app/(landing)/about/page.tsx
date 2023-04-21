@@ -1,11 +1,14 @@
 import Logo from "@/app/components/Logo";
 import Title from "@/app/components/Title";
+import "./../team/style.css"
+import Image from "next/image"
+
 
 export default function AboutPage() {
   return (
     <>
       <title>About - Envisage 23</title>
-      <div>
+      <div className="all overflow-x-hidden">
         <Title title="About" />
         <section className="mx-auto max-w-5xl px-4 py-20 sm:pt-10">
           <div className="mx-auto mb-10 flex flex-col items-center gap-y-4 rounded-3xl bg-gray-900 p-10 text-white transition-all duration-200 ease-in-out hover:scale-95 hover:shadow-2xl hover:ring-4 hover:ring-blue-500 hover:ring-offset-8 sm:flex-row">
@@ -39,7 +42,9 @@ export default function AboutPage() {
                 the fields.
               </p>
             </div>
-            <div className="order-first inline-flex h-72 w-72 flex-shrink-0 items-center justify-center sm:order-none sm:ml-10 sm:h-96 sm:w-96"></div>
+            <div className="order-first inline-flex h-72 w-72 flex-shrink-0 items-center justify-center sm:order-none sm:ml-10 sm:h-96 sm:w-96">
+              <Image src={"./images/poster.png"} alt=""/>
+            </div>
           </div>
         </section>
       </div>
