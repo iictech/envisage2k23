@@ -3,6 +3,7 @@ import Title from "@/app/components/Title";
 import "./../team/style.css"
 import Image from "next/image"
 import Poster from "./images/poster.png"
+import Events from "./images/events.png"
 
 export default function AboutPage() {
   return (
@@ -166,8 +167,10 @@ export default function AboutPage() {
                 </div>
               </li>
             </ol>
-
-
+          </div>
+          
+          <div>
+            <Image src={Events} alt=""/>
           </div>
         </section>
       </div>
