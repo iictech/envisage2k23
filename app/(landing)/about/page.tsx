@@ -171,10 +171,11 @@ export default function AboutPage() {
           </div>
           
           <div className="mt-14 mx-auto mb-10 flex flex-col items-center gap-y-4 rounded-3xl bg-gray-900 p-10 text-white transition-all duration-200 ease-in-out hover:scale-95 hover:shadow-2xl hover:ring-4 hover:ring-blue-900 hover:ring-offset-8 sm:flex-row">
-            <Image src={Events} alt=""/>
+            <Image className="rounded-3xl" src={Events} alt=""/>
           </div>
-          
-          <Image src={Wait} alt=""/>
+          <div className="flex justify-content items-center mt-14">
+            <Image src={Wait} alt=""/>
+          </div>
         </section>
       </div>
     </>
