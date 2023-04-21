@@ -47,7 +47,9 @@ export default function AboutPage() {
             </div>
           </div>
 
-          <div className="mt-4">
+          
+
+          <div className="mt-8">
             <ol className="items-center sm:flex">
               <li className="relative mb-6 sm:mb-0">
                 <div className="flex items-center">
@@ -92,7 +94,7 @@ export default function AboutPage() {
           </div>
 
 
-          <div className="mt-4">
+          <div className="mt-8">
             <ol className="items-center sm:flex">
               <li className="relative mb-6 sm:mb-0">
                 <div className="flex items-center">
