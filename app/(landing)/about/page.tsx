@@ -4,6 +4,7 @@ import "./../team/style.css"
 import Image from "next/image"
 import Poster from "./images/poster.png"
 import Events from "./images/events.png"
+import Wait from "./images/waitfor.png"
 
 export default function AboutPage() {
   return (
@@ -172,6 +173,8 @@ export default function AboutPage() {
           <div className="mt-14 mx-auto mb-10 flex flex-col items-center gap-y-4 rounded-3xl bg-gray-900 p-10 text-white transition-all duration-200 ease-in-out hover:scale-95 hover:shadow-2xl hover:ring-4 hover:ring-blue-900 hover:ring-offset-8 sm:flex-row">
             <Image src={Events} alt=""/>
           </div>
+          
+          <Image src={Wait} alt=""/>
         </section>
       </div>
     </>
