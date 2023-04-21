@@ -47,9 +47,13 @@ export default function AboutPage() {
             </div>
           </div>
 
-          
 
-          <div className="mt-8">
+          <div className="m-auto justify-center items-center">
+            <h2 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl">
+              Events Timeline
+            </h2>
+          </div>
+          <div className="mt-14">
             <ol className="items-center sm:flex">
               <li className="relative mb-6 sm:mb-0">
                 <div className="flex items-center">
@@ -58,10 +62,10 @@ export default function AboutPage() {
                   </div>
                   <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
                 </div>
-                <div className="mt-3 sm:pr-8">
-                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Flowbite Library v1.0.0</h3>
-                  <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on December 2, 2021</time>
-                  <p className="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements.</p>
+                <div className="mt-4 sm:pr-8">
+                  <h3 className="text-2xl font-bold text-white">Inauguaration</h3>
+                  <time className="block mb-2 pt-2 text-base font-normal leading-none text-black">4th to 9th MAY</time>
+                  <p className="text-lg font-normal text-white pt-2">TECHNO MAIN SALT LAKE <br/>PRIZE POOL: RS. 80,000</p>
                 </div>
               </li>
               <li className="relative mb-6 sm:mb-0">
@@ -71,10 +75,10 @@ export default function AboutPage() {
                   </div>
                   <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
                 </div>
-                <div className="mt-3 sm:pr-8">
-                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Flowbite Library v1.2.0</h3>
-                  <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on December 23, 2021</time>
-                  <p className="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements.</p>
+                <div className="mt-4 sm:pr-8">
+                  <h3 className="text-2xl font-bold text-white">Inauguaration</h3>
+                  <time className="block mb-2 pt-2 text-base font-normal leading-none text-black">4th to 9th MAY</time>
+                  <p className="text-lg font-normal text-white pt-2">TECHNO MAIN SALT LAKE <br/>PRIZE POOL: RS. 80,000</p>
                 </div>
               </li>
               <li className="relative mb-6 sm:mb-0">
@@ -84,17 +88,17 @@ export default function AboutPage() {
                   </div>
                   <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
                 </div>
-                <div className="mt-3 sm:pr-8">
-                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Flowbite Library v1.3.0</h3>
-                  <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on January 5, 2022</time>
-                  <p className="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements.</p>
+                <div className="mt-4 sm:pr-8">
+                  <h3 className="text-2xl font-bold text-white">Inauguaration</h3>
+                  <time className="block mb-2 pt-2 text-base font-normal leading-none text-black">4th to 9th MAY</time>
+                  <p className="text-lg font-normal text-white pt-2">TECHNO MAIN SALT LAKE <br/>PRIZE POOL: RS. 80,000</p>
                 </div>
               </li>
             </ol>
           </div>
 
 
-          <div className="mt-8">
+          <div className="mt-14">
             <ol className="items-center sm:flex">
               <li className="relative mb-6 sm:mb-0">
                 <div className="flex items-center">
@@ -103,10 +107,10 @@ export default function AboutPage() {
                   </div>
                   <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
                 </div>
-                <div className="mt-3 sm:pr-8">
-                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Flowbite Library v1.0.0</h3>
-                  <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on December 2, 2021</time>
-                  <p className="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements.</p>
+                <div className="mt-4 sm:pr-8">
+                  <h3 className="text-2xl font-bold text-white">Inauguaration</h3>
+                  <time className="block mb-2 pt-2 text-base font-normal leading-none text-black">4th to 9th MAY1</time>
+                  <p className="text-lg font-normal text-white pt-2">TECHNO MAIN SALT LAKE <br/>PRIZE POOL: RS. 80,000</p>
                 </div>
               </li>
               <li className="relative mb-6 sm:mb-0">
@@ -116,10 +120,10 @@ export default function AboutPage() {
                   </div>
                   <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
                 </div>
-                <div className="mt-3 sm:pr-8">
-                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Flowbite Library v1.2.0</h3>
-                  <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on December 23, 2021</time>
-                  <p className="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements.</p>
+                <div className="mt-4 sm:pr-8">
+                  <h3 className="text-2xl font-bold text-white">Inauguaration</h3>
+                  <time className="block mb-2 pt-2 text-base font-normal leading-none text-black">4th to 9th MAY</time>
+                  <p className="text-lg font-normal text-white pt-2">TECHNO MAIN SALT LAKE <br/>PRIZE POOL: RS. 80,000</p>
                 </div>
               </li>
               <li className="relative mb-6 sm:mb-0">
@@ -129,10 +133,10 @@ export default function AboutPage() {
                   </div>
                   <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
                 </div>
-                <div className="mt-3 sm:pr-8">
-                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Flowbite Library v1.3.0</h3>
-                  <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on January 5, 2022</time>
-                  <p className="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements.</p>
+                <div className="mt-4 sm:pr-8">
+                  <h3 className="text-2xl font-bold text-white">Inauguaration</h3>
+                  <time className="block mb-2 pt-2 text-base font-normal leading-none text-black">4th to 9th MAY</time>
+                  <p className="text-lg font-normal text-white pt-2">TECHNO MAIN SALT LAKE <br/>PRIZE POOL: RS. 80,000</p>
                 </div>
               </li>
             </ol>
