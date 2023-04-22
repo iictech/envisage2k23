@@ -24,6 +24,7 @@ export default function EventCard({ event }: { event: EventProps }) {
             <a
               href="https://forms.gle/cheDryRsxBy4R2jv6"
               className="inline-flex items-center text-indigo-500 md:mb-2 lg:mb-0"
+              target="_blank"
             >
               Register Now
               <svg
