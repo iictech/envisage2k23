@@ -1,5 +1,14 @@
 import { db } from "@/firebase/config";
-import { collection, doc, getCountFromServer, getDoc, query, setDoc, updateDoc, where } from "firebase/firestore";
+import {
+  collection,
+  doc,
+  getCountFromServer,
+  getDoc,
+  query,
+  setDoc,
+  updateDoc,
+  where,
+} from "firebase/firestore";
 
 /**
  * This function retrieves user data from a specified collection in a Firestore database
