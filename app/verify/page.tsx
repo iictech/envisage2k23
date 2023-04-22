@@ -15,7 +15,7 @@ function IsVerified({ ticketId }: { ticketId: string }) {
 
   useEffect(() => {
     try {
-      const q = query(collection(db, "users_test"), where("evgId", "==", ticketId));
+      const q = query(collection(db, "users"), where("evgId", "==", ticketId));
       const verify = async () => {
         await getDocs(q).then((querySnapshot) => {
           querySnapshot.forEach((doc) => {
