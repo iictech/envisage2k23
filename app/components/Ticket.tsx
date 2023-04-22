@@ -58,7 +58,7 @@ export default function Ticket({ userData }: { userData: UserData | null }) {
             </div>
           </div>
           <QRCodeSVG
-            value={`https://envisage23.vercel.app/verify?ticketId=${userData?.evgId}`}
+            value={`https://envisage.org.in/verify?ticketId=${userData?.evgId}`}
             size={180}
             bgColor={"#ffffff"}
             fgColor={"#000000"}
