@@ -20,7 +20,7 @@ export default function GoogleButton({ text }: { text: string }) {
         // check if user exists in database
         // if not, add user to database
         try {
-          const docSnap = await getUserData("users_test", user?.uid as string);
+          const docSnap = await getUserData("users", user?.uid as string);
 
           if (docSnap.exists() === true) {
             // console.log("Document data:", docSnap.data());
@@ -28,7 +28,7 @@ export default function GoogleButton({ text }: { text: string }) {
           } else {
             // doc.data() will be undefined in this case
 
-            await addUserData("users_test", user?.uid, {
+            await addUserData("users", user?.uid, {
               uid: user?.uid,
               email: user?.email,
               name: user?.displayName,

@@ -44,7 +44,7 @@ export default function Home() {
 
   useEffect(() => {
     try {
-      getUserData("users_test", user?.uid as string).then((doc: UserData | any) => {
+      getUserData("users", user?.uid as string).then((doc: UserData | any) => {
         setUserData(doc.data());
       });
     } catch (error) {
@@ -74,7 +74,7 @@ export default function Home() {
     };
 
     try {
-      await updateUserData("users_test", user?.uid as string, data);
+      await updateUserData("users", user?.uid as string, data);
       router.push("/dashboard");
     } catch (error) {
       console.log(error);

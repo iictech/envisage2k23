@@ -17,7 +17,7 @@ export default function DashboardPage() {
   React.useEffect(() => {
     try {
       if (user) {
-        getUserData("users_test", user.uid).then((doc) => {
+        getUserData("users", user.uid).then((doc) => {
           if (doc.exists()) {
             setUserData(doc.data() as UserData);
           } else {
@@ -37,7 +37,9 @@ export default function DashboardPage() {
       <title>Dashboard - Envisage 23</title>
       <div>
         <h1 className="pb-4 text-center text-2xl font-bold">Welcome {userData?.name},</h1>
-        <Ticket userData={userData} />
+        <div className="flex flex-col justify-center gap-y-4">
+          <Ticket userData={userData} />
+        </div>
       </div>
     </>
   );
