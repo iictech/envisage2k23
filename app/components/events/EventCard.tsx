@@ -22,7 +22,7 @@ export default function EventCard({ event }: { event: EventProps }) {
           <p className="mb-3 leading-relaxed">{event.description}</p>
           <div className="flex flex-wrap items-center ">
             <a
-              href="#"
+              href="https://forms.gle/cheDryRsxBy4R2jv6"
               className="inline-flex items-center text-indigo-500 md:mb-2 lg:mb-0"
             >
               Register Now
