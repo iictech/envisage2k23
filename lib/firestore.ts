@@ -1,5 +1,14 @@
 import { db } from "@/firebase/config";
-import { doc, getDoc, setDoc, updateDoc } from "firebase/firestore";
+import {
+  collection,
+  doc,
+  getCountFromServer,
+  getDoc,
+  query,
+  setDoc,
+  updateDoc,
+  where,
+} from "firebase/firestore";
 
 /**
  * This function retrieves user data from a specified collection in a Firestore database
@@ -54,4 +63,22 @@ export const updateUserData = async (
   await updateDoc(doc(db, collectionName, userId), data, {
     merge: true,
   });
+};
+
+/**
+ * This TypeScript function counts the number of referrals in a given collection that match a specific
+ * referral ID.
+ * @param {string} collectionName - The name of the collection in Firestore where the data is stored.
+ * @param {string} evgId - The `evgId` parameter is a string representing the referral ID that we want
+ * to count in the specified collection. The function uses this parameter to create a query that
+ * filters the collection based on the `referralId` field matching the `evgId` value. The function then
+ * returns the
+ * @returns The `countReferrals` function is returning a Promise that resolves to a snapshot of the
+ * number of documents in a Firestore collection that have a `referralId` field equal to the `evgId`
+ * parameter passed to the function.
+ */
+export const countReferrals = async (collectionName: string, evgId: string) => {
+  const q = query(collection(db, collectionName), where("referralId", "==", evgId));
+  const snapshot = await getCountFromServer(q);
+  return snapshot;
 };
