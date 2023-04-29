@@ -43,7 +43,7 @@ export default function PartnersPage() {
             </div>
           </div>
           <div className="flex justify-center py-12">
-            <button className="block rounded-lg bg-gray-900 px-6 py-4 text-center text-base font-semibold uppercase tracking-tight text-zinc-100 hover:bg-blue-950 active:scale-95 sm:px-12 sm:text-xl"><a href="https://forms.gle/5zNc3wyScZpPVB1A9">
+            <button className="block rounded-lg bg-gray-900 px-6 py-4 text-center text-base font-semibold uppercase tracking-tight text-zinc-100 hover:bg-blue-950 active:scale-95 sm:px-12 sm:text-xl"><a href="https://forms.gle/5zNc3wyScZpPVB1A9" target="_blank">
               Join as a Event Partner</a>
             </button>
           </div>
