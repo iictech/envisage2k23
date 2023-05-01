@@ -79,7 +79,7 @@ export default function AboutPage() {
                   <h3 className="flex items-center mb-1 text-2xl font-bold text-white">4th MAY</h3>
                   <time className="block mb-2 text-lg font-bold leading-none text-blue-950">THURSDAY</time>
                   <p className="mb-4 text-base font-normal text-white">
-                    5:00 PM&nbsp;&nbsp;&nbsp;INAUGURATION &nbsp;&#40;G-Series&#41;<br />8:00 PM&nbsp;&nbsp;&nbsp;CASE STUDY &nbsp;&#40;Starts&#41;<br />8:00 PM&nbsp;&nbsp;&nbsp;PROMOTE-IT &nbsp;&#40;Starts&#41;
+                    05:00 PM&nbsp;&nbsp;&nbsp;INAUGURATION &nbsp;&#40;G-Series&#41;<br />08:00 PM&nbsp;&nbsp;&nbsp;CASE STUDY &nbsp;&#40;Starts&#41;<br />08:00 PM&nbsp;&nbsp;&nbsp;PROMOTE-IT &nbsp;&#40;Starts&#41;
                   </p>
 
                 </li>
@@ -92,7 +92,7 @@ export default function AboutPage() {
                   <h3 className="flex items-center mb-1 text-2xl font-bold text-white">5th MAY</h3>
                   <time className="block mb-2 text-lg font-bold leading-none text-blue-950">FRIDAY</time>
                   <p className="mb-4 text-base font-normal text-white">
-                    10:00 AM&nbsp;&nbsp;&nbsp;B-PLAN &nbsp;&#40;Prelims&#41;<br />10:30 AM&nbsp;&nbsp;&nbsp;TWEETERS<br />12:00 PM&nbsp;&nbsp;&nbsp;BRAIN-IT-OUT<br />1:30 PM&nbsp;&nbsp;&nbsp;ON-BOARD
+                    10:00 AM&nbsp;&nbsp;&nbsp;B-PLAN &nbsp;&#40;Prelims&#41;<br />10:30 AM&nbsp;&nbsp;&nbsp;TWEETERS<br />12:00 PM&nbsp;&nbsp;&nbsp;BRAIN-IT-OUT<br />01:30 PM&nbsp;&nbsp;&nbsp;ON-BOARD
                   </p>
 
                 </li>
@@ -104,7 +104,7 @@ export default function AboutPage() {
                   <h3 className="flex items-center mb-1 text-2xl font-bold text-white">6th MAY</h3>
                   <time className="block mb-2 text-lg font-bold leading-none text-blue-950">SATURDAY</time>
                   <p className="mb-4 text-base font-normal text-white">
-                    1:00 PM&nbsp;&nbsp;&nbsp;TECHNO SHOWTIME<br />4:30 PM&nbsp;&nbsp;&nbsp;STAND-UP COMEDY<br />8:00 PM&nbsp;&nbsp;&nbsp;HACK-UR-WAY &nbsp;&#40;Starts&#41;
+                    01:00 PM&nbsp;&nbsp;&nbsp;TECHNO SHOWTIME<br />04:30 PM&nbsp;&nbsp;&nbsp;STAND-UP COMEDY<br />08:00 PM&nbsp;&nbsp;&nbsp;HACK-UR-WAY &nbsp;&#40;Starts&#41;
                   </p>
 
                 </li>
@@ -120,36 +120,36 @@ export default function AboutPage() {
                   <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
                     <svg aria-hidden="true" className="w-3 h-3 text-blue-800 dark:text-blue-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
                   </span>
-                  <h3 className="flex items-center mb-1 text-2xl font-bold text-white">2nd MAY</h3>
+                  <h3 className="flex items-center mb-1 text-2xl font-bold text-white">7th MAY</h3>
+                  <time className="block mb-2 text-lg font-bold leading-none text-blue-950">SUNDAY</time>
+                  <p className="mb-4 text-base font-normal text-white">
+                    11:00 AM&nbsp;&nbsp;&nbsp;B-PLAN &nbsp;&#40;Finals&#41;<br />04:00 PM&nbsp;&nbsp;&nbsp;CASE STUDY &nbsp;&#40;Ends&#41;<br />04:00 PM&nbsp;&nbsp;&nbsp;PROMOTE-IT &nbsp;&#40;Ends&#41;
+                  </p>
+
+                </li>
+
+
+                <li className="mb-10 ml-6">
+                  <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+                    <svg aria-hidden="true" className="w-3 h-3 text-blue-800 dark:text-blue-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+                  </span>
+                  <h3 className="flex items-center mb-1 text-2xl font-bold text-white">8th MAY</h3>
+                  <time className="block mb-2 text-lg font-bold leading-none text-blue-950">MONDAY</time>
+                  <p className="mb-4 text-base font-normal text-white">
+                    11:00 AM&nbsp;&nbsp;&nbsp;MOCK IPL &nbsp;&#40;Prelims&#41;<br />06:00 PM&nbsp;&nbsp;&nbsp;STOCKIFY &nbsp;&#40;Ends&#41;<br />07:00 PM&nbsp;&nbsp;&nbsp;PROTOTYPE GROOMING
+                  </p>
+
+                </li>
+
+
+                <li className="mb-10 ml-6">
+                  <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+                    <svg aria-hidden="true" className="w-3 h-3 text-blue-800 dark:text-blue-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+                  </span>
+                  <h3 className="flex items-center mb-1 text-2xl font-bold text-white">9th MAY</h3>
                   <time className="block mb-2 text-lg font-bold leading-none text-blue-950">TUESDAY</time>
                   <p className="mb-4 text-base font-normal text-white">
-                    10:00 AM&nbsp;&nbsp;&nbsp;STOCKIFY &nbsp;&#40;Starts&#41;
-                  </p>
-
-                </li>
-
-
-                <li className="mb-10 ml-6">
-                  <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-                    <svg aria-hidden="true" className="w-3 h-3 text-blue-800 dark:text-blue-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
-                  </span>
-                  <h3 className="flex items-center mb-1 text-2xl font-bold text-white">4th MAY</h3>
-                  <time className="block mb-2 text-lg font-bold leading-none text-blue-950">THURSDAY</time>
-                  <p className="mb-4 text-base font-normal text-white">
-                    5:00 PM&nbsp;&nbsp;&nbsp;INAUGURATION &nbsp;&#40;G-Series&#41;<br />8:00 PM&nbsp;&nbsp;&nbsp;CASE STUDY &nbsp;&#40;Starts&#41;<br />8:00 PM&nbsp;&nbsp;&nbsp;PROMOTE-IT &nbsp;&#40;Starts&#41;
-                  </p>
-
-                </li>
-
-
-                <li className="mb-10 ml-6">
-                  <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-                    <svg aria-hidden="true" className="w-3 h-3 text-blue-800 dark:text-blue-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
-                  </span>
-                  <h3 className="flex items-center mb-1 text-2xl font-bold text-white">5th MAY</h3>
-                  <time className="block mb-2 text-lg font-bold leading-none text-blue-950">FRIDAY</time>
-                  <p className="mb-4 text-base font-normal text-white">
-                    10:00 AM&nbsp;&nbsp;&nbsp;B-PLAN &nbsp;&#40;Prelims&#41;<br />10:30 AM&nbsp;&nbsp;&nbsp;TWEETERS<br />12:00 PM&nbsp;&nbsp;&nbsp;BRAIN-IT-OUT<br />1:30 PM&nbsp;&nbsp;&nbsp;ON-BOARD
+                    08:00 AM&nbsp;&nbsp;&nbsp;HACK-UR-WAY &nbsp;&#40;Ends&#41;<br />11:00 AM&nbsp;&nbsp;&nbsp;PROTOTYPE DESIGN<br />12:00 PM&nbsp;&nbsp;&nbsp;MOCK IPL &nbsp;&#40;Finals&#41;<br />04:00 PM&nbsp;&nbsp;&nbsp;CLOSING CEREMONY
                   </p>
 
                 </li>
@@ -158,10 +158,11 @@ export default function AboutPage() {
                   <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
                     <svg aria-hidden="true" className="w-3 h-3 text-blue-800 dark:text-blue-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
                   </span>
-                  <h3 className="flex items-center mb-1 text-2xl font-bold text-white">6th MAY</h3>
-                  <time className="block mb-2 text-lg font-bold leading-none text-blue-950">SATURDAY</time>
+                  <h3 className="flex items-center mb-1 text-2xl font-bold text-white">ENDS HERE !</h3>
+                  <time className="block mb-2 text-lg font-bold leading-none text-blue-950">Have Fun </time>
                   <p className="mb-4 text-base font-normal text-white">
-                    1:00 PM&nbsp;&nbsp;&nbsp;TECHNO SHOWTIME<br />4:30 PM&nbsp;&nbsp;&nbsp;STAND-UP COMEDY<br />8:00 PM&nbsp;&nbsp;&nbsp;HACK-UR-WAY &nbsp;&#40;Starts&#41;
+                    ALL THE BEST TO THE PARTICIPANTS. Let&#39;s<br/>
+                    ENRAGE<br/>ENGAGE<br/>ENTHRAL
                   </p>
 
                 </li>
